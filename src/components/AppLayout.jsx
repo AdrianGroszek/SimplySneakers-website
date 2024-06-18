@@ -10,8 +10,8 @@ function AppLayout() {
             <main className="mt-10 flex w-4/5 max-w-screen-xl justify-center md:m-20">
                 <Outlet />
             </main>
-            <Toaster position="top-center" />
             <Footer />
+            <Toaster position="top-center" />
         </div>
     )
 }
