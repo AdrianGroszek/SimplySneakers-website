@@ -5,9 +5,9 @@ import { Toaster } from 'react-hot-toast'
 
 function AppLayout() {
     return (
-        <div className="no-scrollbar flex h-screen w-full justify-center overflow-y-scroll bg-gray-50 text-stone-800">
+        <div className="no-scrollbar flex w-full justify-center overflow-y-scroll bg-gray-50 text-stone-800">
             <Header />
-            <main className="mt-10 flex w-4/5 max-w-screen-xl justify-center md:m-20">
+            <main className="flex h-screen w-4/5 max-w-screen-xl justify-center pt-20">
                 <Outlet />
             </main>
             <Footer />
